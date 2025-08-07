@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sagar Singh Thayat - Portfolio Glow</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo"> <img src="./images/logo.png" alt="Logo" class="logo-img" /></div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Project</a></li>
+            <li><a href="#contact">Contact</a></li>
+
+        </ul>
+    </nav>
+
+    <section id="home" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1>Hello, It's Me</h1>
+                <h2>Sagar Singh Thayat</h2>
+                <h3>And I'm a <span class="animated-text"></span></h3>
+                <p>Passionate about creating stylish and functional web apps.</p>
+                <div class="hero-buttons">
+                    <a href="#" class="btn">Download CV</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/Sagar.jpg" alt="Sagar Singh Thayat">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="about-text">
+            <h2>About <span>Me</span></h2>
+            <h3>Web Developer!</h3>
+            <p>My name is Sagar Singh Thayat. I’m currently pursuing my B.Tech in Computer Science and Engineering
+                from Graphic Era Hill University. I have a strong interest in Web Development and AI tools, and I’ve
+                worked on several projects that reflect this, such as a Face Recognition Attendance System, a Mental
+                Health Prediction App using Machine Learning, and a Movie Explorer App that helps users discover where
+                to watch their favorite movies.</p>
+        </div>
+    </section>
+    <section id="skills" class="skills-section animate-on-scroll">
+        <h2>My <span>Skills</span></h2>
+        <div class="skills-columns">
+            <div class="skills-column">
+                <div class="skill-item">
+                    <span>HTML</span><span class="stars">★★★★☆</span>
+                </div>
+                <div class="skill-item">
+                    <span>CSS</span><span class="stars">★★★★☆</span>
+                </div>
+                <div class="skill-item">
+                    <span>JavaScript</span><span class="stars">★★★★☆</span>
+                </div>
+                <div class="skill-item">
+                    <span>Python</span><span class="stars">★★★☆☆</span>
+                </div>
+            </div>
+            <div class="skills-column">
+                <div class="skill-item">
+                    <span>React</span><span class="stars">★★★★☆</span>
+                </div>
+                <div class="skill-item">
+                    <span>SQL</span><span class="stars">★★★★☆</span>
+                </div>
+                <div class="skill-item">
+                    <span>Machine Learning</span><span class="stars">★★★☆☆</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="services" class="services-section">
+        <h2>Our <span>Services</span></h2>
+        <div class="service-container">
+            <div class="service-box">
+                <h3>Web Development</h3>
+                <p>I’m a passionate Web Developer skilled in creating responsive and interactive websites using HTML,
+                    CSS, JavaScript, and React. I love building clean designs and user-friendly web applications that
+                    solve real-world problems</p>
+            </div>
+            <div class="service-box">
+                <h3>UI/UX Design</h3>
+                <p>UI/UX Design for a portfolio focuses on creating a visually appealing layout (UI) and ensuring a
+                    smooth, user-friendly browsing experience (UX). It helps showcase your skills, projects, and contact
+                    information in an attractive and easy-to-navigate way.</p>
+            </div>
+            <div class="service-box">
+                <h3>Responsive Design</h3>
+                <p>Creating mobile-first, responsive web apps that work perfectly on all devices.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="portfolio" class="portfolio-section">
+        <h2>Latest <span>Project</span></h2>
+        <div class="project-gallery">
+            <a href="https://github.com/SagarThayat/Face-Recognition-System-Using-ML" target="_blank"
+                class="project-box">
+                <img src="images/Face.png" alt="Face Recognition System"></a>
+            <a href="https://github.com/SagarThayat/movie-explorer-app" target="_blank" class="project-box">
+                <img src="images\Movie.png" alt="Movie Explorer App"></a>
+            <a href="https://path-visualisation.vercel.app/" target="_blank" class="project-box">
+                <img src="images\PathVisulaizer.png" alt="PathVisulaizer"></a>
+            <img src="images\portfolio.png" alt="Project 4">
+            <a href="https://code-alpha-task1-three.vercel.app/" target="_blank" class="project-box">
+                <img src="images\Calc.png" alt="Project 5"></a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <h2>Contact <span>Me!</span></h2>
+        <form class="contact-form" onsubmit="return submitForm(event)">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <section id="contact" class="contact-footer-section">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:sagarthayat2526@gmail.com">sagarthayat2526@gmail.com</a></p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/sagar-singh-thayat/" target="_blank"><i class="fab fa-linkedin"></i>
+                LinkedIn</a>
+            <a href="https://github.com/SagarThayat" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            <a href="https://www.instagram.com/surya_thayat/" target="_blank"><i class="fab fa-instagram"></i>
+                Instagram</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Sagar Singh Thayat. All rights reserved.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
